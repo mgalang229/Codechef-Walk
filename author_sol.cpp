@@ -21,7 +21,7 @@ int main() {
 			// if the current maximum fails the conditions until the end, then
 			// it means that the minimum velocity that we need is the last element
 			// plus the its index (the number that is needed to be added to it in order
-			// to pass all the needed conditions)
+			// to pass all the conditions)
 			res = max(res, w + i);
 		}
 		cout << res << '\n';
